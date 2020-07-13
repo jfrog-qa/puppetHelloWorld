@@ -5,4 +5,9 @@
 # @example
 #   include helloworld::hello
 class helloworld::hello {
+
+file {'/tmp/helloworld':
+content => "Hello World!\n",
+}
+
 }
